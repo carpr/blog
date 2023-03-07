@@ -1,0 +1,11 @@
+Cloud Security
+
+As we're all aware, EVERYBODY seems to be moving toward the cloud.  Whether we like the idea or not, it's tough to find a technology that isn't cloud-based; whether checking our Gmail, hailing an Uber, or buying something from Amazon, almost everybody is already there. 
+As a business, there are a lot of opportunities for Charter in the cloud as well.  As we as an organization move toward the cloud, we'll necessarily be careful in how that's done.  Traditional (on-premises) data centers are a tried-and-true technology, but are still not without risks.  Cloud presents a truly unique set of risks as well--not least of which being that many of the traditional on-prem controls look very different in the cloud, or can't exist at all.  For example, the cloud cannot "hide" databases behind four DMZ of firewalls as on-prem can, so special care must be exercised with cloud data. Logical (as opposed to physical) controls can be used to layer access controls to cloud content, but from a real network perspective, everything in the cloud is connected to everything else.  
+While the architectural differences between cloud and on-premises may seem scary, there are some unique security controls available in the cloud, which with careful planning and implementation, can more than offset the risk differential.  An important case in point: sensitive instances in the cloud are able to be logically isolated from all other instances, while on-prem instances often rely on network devices/configuration/segmentation for an entire rack or area within a datacenter, which often places a lot of disparate instances (servers) in the same network space, or broadcast domain.  If one server is attacked or compromised, a so-called "flat" network allows all its neighbors to be similarly attacked or compromised.  
+Striking the delicate balance of risk and productivity is always difficult, but if we stay vigilant and dedicated to the cause, we can make this journey a successful one together. 
+
+There is a TON of great AWS training available for anyone who is interested; including:
+https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials?dt=tile&tile=fdt - AWS (6 hours); you'll need to set up a FREE AWS account, and this training is free as well. How can you go wrong?!
+
+Thanks for reading!
